@@ -1,0 +1,10 @@
+DELIMITER $$
+
+CREATE TRIGGER trigger_usuario_delete
+AFTER DELETE ON SpotifyClone.usuario
+FOR EACH ROW
+BEGIN
+  WHERE 
+END $$
+
+DELIMITER ;
